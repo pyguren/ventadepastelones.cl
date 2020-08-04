@@ -1,0 +1,250 @@
+/* ///////////////lo que se ve en pantalla vertical de menos de 700 px//////////// */
+
+#row {
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 40%;
+    text-align: left;
+    padding: 10px;
+    background-color: orange;
+}
+
+.button {
+    background-color: #1c87c9;
+    border: none;
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+.borde1{
+   margin-top: 50px;
+   margin-bottom: 50px;
+   padding: 5%;
+   border: 2px solid black;
+   border-radius: 5%;
+  
+}
+
+   a{
+    text-align: center;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+
+.logo{
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-bottom: 30px;
+    border-radius: 10%;
+    width: 50%;
+    border: black double;
+}
+
+
+#botonera{
+    border-radius: 5%;
+    text-align: center;
+}
+
+
+.principal{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: black;
+    font-style: oblique;
+    text-align:left;
+    margin-bottom: 5px;
+}
+
+.contact{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-style: oblique;
+}
+
+/* //////////////////////////////fondo del body//////////////////////////// */
+body {
+   background: linear-gradient(173deg, rgba(236, 240, 236, 0.589) 0%, rgba(119, 243, 154, 1) 60%, rgba(198, 233, 199, 1) 100%);
+    background-repeat: unset;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 20px;
+    border-style: double;
+
+}
+
+/* ////////////////////////////////Depeloped by/////////////////////// */
+
+.margenc {
+    text-align: right;
+    font-weight: bold;
+    border-radius: 5%;
+    padding-right: 5px;
+    background-color: rgb(206, 184, 180);
+}
+
+/* ////////////////////////////////FORMULARIO DE CONTACTO/////////////////////// */
+
+#form{
+   width: 90%;
+}
+
+
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:1px;
+    color: black;
+}
+.formulario {
+    display:block;
+    margin: 20px;
+    width:50px;
+    color: #666666;
+    font-family:Arial;
+}
+form {
+    margin:10px auto;
+    width:90%;
+}
+ 
+input, textarea {
+   width:90%;
+    height:27px;
+    background:#666666;
+    border:2px solid #f6f6f6;
+    padding:10px;
+    margin-top:5px;
+    font-size:10px;
+    color: white;
+}
+ 
+textarea {
+    height:150px;
+   
+}
+ 
+#submit {
+    width:85px;
+    height:35px;
+    border:none;
+    margin-top:20px;
+    margin-bottom: 20px;
+    cursor:pointer;
+}
+
+.seo{
+    color: white;
+    text-align: center;
+}
+
+/* ////////////////////////////////BARRA DE NAVEGACION/////////////////////// */
+
+.nav{
+    margin: 30px;
+}
+
+#nav{
+   padding: 0%;
+   border-radius: 20%;
+   background-color: goldenrod;
+}
+  /* ///////////////lo que se ve en pantalla grande y landscape//////////// */
+/* ////////////////////////////////Jquery//////////////////////////// */
+
+@media (min-width: 700px) and (orientation: landscape){
+    
+    body {
+       background-image: url(../img/fondo.jpg);
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-position: center;
+       background-size: 100%;    
+   }
+      
+     .principal{
+        color: white;
+         text-align: center;
+         margin-top: 5px;
+         margin-left: 5px;
+         margin-bottom: 5px;
+     }
+ 
+     .logo{
+         margin-left: 120px;
+         margin-top: 10px;
+         width: 20%;
+     }
+ 
+     .borde1{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 5%;
+        border: 2px solid black;
+        border-radius: 5%;
+        background: linear-gradient(173deg, rgba(236, 240, 236, 0.589) 0%, rgba(119, 243, 154, 1) 60%, rgba(198, 233, 199, 1) 100%);
+     }
+      
+   /* ////////////////////////////////titulo footer contacto/////////////////////// */
+ 
+      .contact{
+         color: white;
+      }
+ 
+      /* ////////////////////////////////FORMULARIO DE CONTACTO/////////////////////// */
+ 
+ 
+ label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:1px;
+    color: white;
+    font-weight: bold;
+ }
+ .formulario {
+    display:block;
+    margin: 20px;
+    width:500px;
+    color: #666666;
+    font-family:Arial;
+ }
+ form {
+    margin:40px auto;
+    width:500px;
+ }
+ 
+ input, textarea {
+    width:500px;
+    height:27px;
+    background:#666666;
+    border:2px solid #f6f6f6;
+    padding:10px;
+    margin-top:5px;
+    font-size:10px;
+    color: white;
+ }
+ 
+ textarea {
+    height:150px;
+ }
+ 
+ #submit {
+    width:85px;
+    height:35px;
+    border:none;
+    margin-top:40px;
+    margin-bottom: 60px;
+    cursor:pointer;
+ }
+}
