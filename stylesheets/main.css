@@ -166,7 +166,7 @@ textarea {
 @media (min-width: 700px) and (orientation: landscape){
     
     body {
-       background-image: url(../img/fondo.jpg);
+       background-image: url(../img/fondo1.jpg);
        background-repeat: no-repeat;
        background-attachment: fixed;
        background-position: center;
@@ -246,5 +246,9 @@ textarea {
     margin-top:40px;
     margin-bottom: 60px;
     cursor:pointer;
+ }
+
+ .nav{
+     margin: 2px;
  }
 }
