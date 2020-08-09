@@ -34,6 +34,12 @@
   
 }
 
+p{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
    a{
     text-align: center;
     font-weight: bold;
@@ -75,7 +81,7 @@
 
 /* //////////////////////////////fondo del body//////////////////////////// */
 body {
-   background: linear-gradient(173deg, rgba(236, 240, 236, 0.589) 0%, rgba(119, 243, 154, 1) 60%, rgba(198, 233, 199, 1) 100%);
+    background-image: url(../img/fondo4.jpg);
     background-repeat: unset;
     background-attachment: fixed;
     background-position: center;
