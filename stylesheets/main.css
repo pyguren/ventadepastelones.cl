@@ -1,4 +1,10 @@
-/* ///////////////lo que se ve en pantalla vertical de menos de 700 px//////////// */
+body {
+    background-image: url(../img/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;    
+}
 
 #row {
     color: white;
@@ -23,45 +29,8 @@
     font-size: 20px;
     margin: 4px 2px;
     cursor: pointer;
-  }
-
-.borde1{
-   margin-top: 50px;
-   margin-bottom: 50px;
-   padding: 5%;
-   border: 2px solid black;
-   border-radius: 5%;
-  
-}
-
-p{
-    font-weight: bold;
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-   a{
-    text-align: center;
-    font-weight: bold;
-    font-family: Georgia, 'Times New Roman', Times, serif;  
-}
-
-.logo{
-    margin-top: 30px;
-    margin-left: 70px;
-    margin-bottom: 30px;
-    border-radius: 10%;
-    width: 50%;
-    border: black double;
-}
-
-
-#botonera{
-    border-radius: 5%;
-    text-align: center;
-}
-
-
+ }
+   
 .principal{
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -71,190 +40,252 @@ p{
     text-align:left;
     margin-bottom: 5px;
 }
+  
+.logo{
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 20%;
+    border-radius: 10%;
+    border: black double;
+}
+
+#botonera{
+    border-radius: 5%;
+    text-align: center;
+    position: relative;
+    display: inline-flex;
+}
+
+.borde1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 5%;
+    border: 2px solid black;
+    border-radius: 5%;
+    background: linear-gradient(173deg, rgba(236, 240, 236, 0.589) 0%, rgba(119, 243, 154, 1) 60%, rgba(198, 233, 199, 1) 100%);
+}
+
+.map {
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 5%;
+    margin: 100px;
+    padding: 20px;
+}
+
+p{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-align: center;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+   
+/* ////////////////////////////////titulo footer contacto/////////////////////// */
 
 .contact{
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
+    color: white;
     font-style: oblique;
 }
-
-/* //////////////////////////////fondo del body//////////////////////////// */
-body {
-    background-image: url(../img/fondo4.jpg);
-    background-repeat: unset;
-    background-attachment: fixed;
-    background-position: center;
-    padding: 20px;
-    border-style: double;
-
-}
-
-/* ////////////////////////////////Depeloped by/////////////////////// */
-
-.margenc {
-    text-align: right;
-    font-weight: bold;
-    border-radius: 5%;
-    padding-right: 5px;
-    background-color: rgb(206, 184, 180);
-}
-
-/* ////////////////////////////////FORMULARIO DE CONTACTO/////////////////////// */
-
-#form{
-   width: 90%;
-}
+   /* ////////////////////////////////FORMULARIO DE CONTACTO/////////////////////// */
 
 
 label {
-    display:block;
-    margin-top:20px;
-    letter-spacing:1px;
-    color: black;
+ display:block;
+ margin-top:20px;
+ letter-spacing:1px;
+ color: white;
+ font-weight: bold;
 }
 .formulario {
-    display:block;
-    margin: 20px;
-    width:50px;
-    color: #666666;
-    font-family:Arial;
+ display:block;
+ margin: 20px;
+ width:500px;
+ color: #666666;
+ font-family:Arial;
 }
 form {
-    margin:10px auto;
-    width:90%;
+ margin:40px auto;
+ width:500px;
 }
- 
+
 input, textarea {
-   width:90%;
-    height:27px;
-    background:#666666;
-    border:2px solid #f6f6f6;
-    padding:10px;
-    margin-top:5px;
-    font-size:10px;
-    color: white;
+ width:500px;
+ height:27px;
+ background:#666666;
+ border:2px solid #f6f6f6;
+ padding:10px;
+ margin-top:5px;
+ font-size:10px;
+ color: white;
 }
- 
+
 textarea {
-    height:150px;
-   
+ height:150px;
 }
- 
+
 #submit {
-    width:85px;
-    height:35px;
-    border:none;
-    margin-top:20px;
-    margin-bottom: 20px;
-    cursor:pointer;
+ width:85px;
+ height:35px;
+ border:none;
+ margin-top:40px;
+ margin-bottom: 60px;
+ cursor:pointer;
 }
-
-.seo{
-    color: white;
-    text-align: center;
-}
-
-/* ////////////////////////////////BARRA DE NAVEGACION/////////////////////// */
 
 .nav{
-    margin: 30px;
+  margin: 2px;
 }
 
-#nav{
-   padding: 0%;
-   border-radius: 20%;
-   background-color: goldenrod;
-}
-  /* ///////////////lo que se ve en pantalla grande y landscape//////////// */
-/* ////////////////////////////////Jquery//////////////////////////// */
 
-@media (min-width: 700px) and (orientation: landscape){
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 740px) {
+
     
-    body {
-       background-image: url(../img/fondo1.jpg);
-       background-repeat: no-repeat;
-       background-attachment: fixed;
-       background-position: center;
-       background-size: 100%;    
-   }
-      
-     .principal{
-        color: white;
-         text-align: center;
-         margin-top: 5px;
-         margin-left: 5px;
-         margin-bottom: 5px;
-     }
- 
-     .logo{
-         margin-left: 120px;
-         margin-top: 10px;
-         width: 20%;
-     }
- 
-     .borde1{
-        margin-top: 50px;
-        margin-bottom: 50px;
-        padding: 5%;
-        border: 2px solid black;
-        border-radius: 5%;
-        background: linear-gradient(173deg, rgba(236, 240, 236, 0.589) 0%, rgba(119, 243, 154, 1) 60%, rgba(198, 233, 199, 1) 100%);
-     }
-      
-   /* ////////////////////////////////titulo footer contacto/////////////////////// */
- 
-      .contact{
-         color: white;
-      }
- 
-      /* ////////////////////////////////FORMULARIO DE CONTACTO/////////////////////// */
- 
- 
- label {
-    display:block;
-    margin-top:20px;
-    letter-spacing:1px;
-    color: white;
-    font-weight: bold;
- }
- .formulario {
-    display:block;
-    margin: 20px;
-    width:500px;
-    color: #666666;
-    font-family:Arial;
- }
- form {
-    margin:40px auto;
-    width:500px;
- }
- 
- input, textarea {
-    width:500px;
-    height:27px;
-    background:#666666;
-    border:2px solid #f6f6f6;
-    padding:10px;
-    margin-top:5px;
-    font-size:10px;
-    color: white;
- }
- 
- textarea {
-    height:150px;
- }
- 
- #submit {
-    width:85px;
-    height:35px;
-    border:none;
-    margin-top:40px;
-    margin-bottom: 60px;
-    cursor:pointer;
- }
+    .borde1{
+        margin: 1px;
+        margin-top: 10px;
+        background-color: unset;
+        padding: 2;
+    }
 
- .nav{
-     margin: 2px;
- }
+    .map {
+        text-align: center;
+        background-color: whitesmoke;
+        border-radius: 5%;
+        margin: 1px;
+        padding: 2px;
+    }
+
+    #botonera{
+        border-radius: 5%;
+        text-align: center;
+        position: relative;
+        display: inline-block;
+        margin: 10px;
+    }
+
+    iframe {
+        border: 1px solid black;
+        width: 100%;
+    }
+    
+    .output {
+        background: #eee;
+    }
+
+    .logo{
+        margin-top: 20px;
+        margin-left: 70px;
+        margin-bottom: 20px;  
+        width: 50%; 
+    }
+
+    .principal{
+        color: white;
+        text-align: center;
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+
+    .contact{
+        color: black;
+     }
+
+
+    /* //////////////////////////////fondo del body//////////////////////////// */
+    body {
+        background-image: url(../img/fondo4.jpg);
+        background-repeat: unset;
+        background-attachment: fixed;
+        background-position: center;
+        padding: 20px;
+        border-style: double;
+
+    }
+
+    /* ////////////////////////////////Depeloped by/////////////////////// */
+
+    .margenc {
+        text-align:center;
+        width: 100%;
+        font-size: 12px;
+    }
+
+    /* ////////////////////////////////FORMULARIO DE CONTACTO/////////////////////// */
+
+    #form{
+    width: 90%;
+    }
+
+
+    label {
+        display:block;
+        margin-top:20px;
+        letter-spacing:1px;
+        color: black;
+    }
+    .formulario {
+        display:block;
+        margin: 20px;
+        width:50px;
+        color: #666666;
+        font-family:Arial;
+    }
+    form {
+        margin:10px auto;
+        width:90%;
+    }
+    
+    input, textarea {
+    width:90%;
+        height:27px;
+        background:#666666;
+        border:2px solid #f6f6f6;
+        padding:10px;
+        margin-top:5px;
+        font-size:10px;
+        color: white;
+    }
+    
+    textarea {
+        height:150px;
+    
+    }
+    
+    #submit {
+        width:85px;
+        height:35px;
+        border:none;
+        margin-top:20px;
+        margin-bottom: 20px;
+        cursor:pointer;
+    }
+
+    .seo{
+        color: white;
+        text-align: center;
+    }
+
+    /* ////////////////////////////////BARRA DE NAVEGACION/////////////////////// */
+    #bot{
+        background-color: chartreuse;
+    }
+
+    .nav{
+        margin: 30px;
+    }
+
+    #nav{
+    padding: 0%;
+    border-radius: 20%;
+    }
 }
